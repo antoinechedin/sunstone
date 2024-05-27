@@ -1,0 +1,21 @@
+{
+  "name": "sunstone",
+  "displayName": "sunstone",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sunstone",
+        "uiTheme": "vs",
+        "path": "./themes/Sunstone-color-theme.json"
+      }
+    ]
+  }
+}
