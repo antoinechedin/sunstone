@@ -14,7 +14,7 @@
       {
         "label": "Sunstone",
         "uiTheme": "vs",
-        "path": "./themes/Sunstone-color-theme.json"
+        "path": "./build/sunstone-color-theme.json"
       }
     ]
   }
