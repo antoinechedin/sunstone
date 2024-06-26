@@ -12,7 +12,27 @@
 			"args": [
 				"--extensionDevelopmentPath=${workspaceFolder}"
 			],
-			"preLaunchTask": "build"
+			"presentation": {
+				"hidden": true,
+			},
+		},
+		{
+			"name": "Watcher",
+			"type": "PowerShell",
+			"request": "launch",
+			"script": "${workspaceFolder}/watcher.ps1",
+			"cwd": "${workspaceFolder}",
+			"presentation": {
+				"hidden": true,
+			},
+		},
+	],
+	"compounds": [
+		{
+			"name": "Start",
+			"configurations": ["Extension", "Watcher"],
+			"preLaunchTask": "build",
+			"stopAll": true
 		}
 	]
 }
