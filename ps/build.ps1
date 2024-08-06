@@ -1,7 +1,7 @@
 param(
-    [string]$Template = "$PSScriptRoot\themes\sunstone-color-template.json",
-    [string]$Palette = "$PSScriptRoot\themes\palette.json",
-    [string]$BuildDir = "$PSScriptRoot\build"
+    [string]$Template = "$PSScriptRoot\..\themes\sunstone-color-template.json",
+    [string]$Palette = "$PSScriptRoot\..\themes\palette.json",
+    [string]$BuildDir = "$PSScriptRoot\..\build"
 )
 
 $Colors = Get-Content $Palette | Out-String | ConvertFrom-Json

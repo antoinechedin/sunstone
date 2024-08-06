@@ -4,7 +4,17 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "./../build.ps1",
+            "command": "./../ps/build.ps1",
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "panel": "shared",
+            }
+        },
+        {
+            "label": "install",
+            "type": "shell",
+            "command": "./../ps/install.ps1",
             "presentation": {
                 "echo": false,
                 "reveal": "silent",

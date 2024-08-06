@@ -1,6 +1,8 @@
+Push-Location "$PSScriptRoot\.."
+
 $OnChangedEvent = $null
 try {
-    $Watcher = New-Object IO.FileSystemWatcher "$PSScriptRoot\themes", "*.*" -Property @{ 
+    $Watcher = New-Object IO.FileSystemWatcher ".\themes", "*.*" -Property @{ 
         IncludeSubdirectories = $false
         EnableRaisingEvents   = $true
     }

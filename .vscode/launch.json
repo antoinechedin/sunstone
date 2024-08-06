@@ -20,7 +20,7 @@
 			"name": "Watcher",
 			"type": "PowerShell",
 			"request": "launch",
-			"script": "${workspaceFolder}/watcher.ps1",
+			"script": "${workspaceFolder}/ps/watcher.ps1",
 			"cwd": "${workspaceFolder}",
 			"presentation": {
 				"hidden": true,

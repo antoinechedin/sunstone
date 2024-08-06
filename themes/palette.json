@@ -18,5 +18,7 @@
     "foreground": "#383A42",
     "background": "#FAFAFA",
     "cursorColor": "#4F525D",
-    "selectionBackground": "#4F525D"
+    "selectionBackground": "#4F525D",
+    "primary" : "#0184BC",
+    "grey": "#A0A1A7"
 }
