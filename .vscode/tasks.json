@@ -4,7 +4,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "./../ps/build.ps1",
+            "command": "${workspaceFolder}/scripts/build.ps1",
             "presentation": {
                 "echo": false,
                 "reveal": "silent",
@@ -14,7 +14,7 @@
         {
             "label": "install",
             "type": "shell",
-            "command": "./../ps/install.ps1",
+            "command": "${workspaceFolder}/scripts/install.ps1",
             "presentation": {
                 "echo": false,
                 "reveal": "silent",
