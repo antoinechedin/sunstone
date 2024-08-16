@@ -12,12 +12,22 @@
             }
         },
         {
+            "label": "package",
+            "type": "shell",
+            "command": "vsce package -o ${workspaceFolder}/build",
+           "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "panel": "shared",
+            }
+        },
+        {
             "label": "install",
             "type": "shell",
-            "command": "${workspaceFolder}/scripts/install.ps1",
+            "command": "code --install-extension ${workspaceFolder}/build/sunstone-0.0.1.vsix",
             "presentation": {
-                "echo": false,
-                "reveal": "silent",
+                "echo": true,
+                "reveal": "always",
                 "panel": "shared",
             }
         }

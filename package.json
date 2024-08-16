@@ -1,8 +1,12 @@
 {
+  "publisher": "antoinechedin",
   "name": "sunstone",
   "displayName": "Sunstone",
   "description": "",
   "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/antoinechedin/sunstone"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },
