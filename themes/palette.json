@@ -16,9 +16,13 @@
     "white": "#FAFAFA",
     "brightWhite": "#FFFFFF",
     "foreground": "#383A42",
-    "background": "#FAFAFA",
+    "background": "#ffffff",
     "cursorColor": "#4F525D",
     "selectionBackground": "#4F525D",
-    "primary" : "#0184BC",
-    "grey": "#A0A1A7"
+    "primary" : "#3574f0",
+    "grey": "#A0A1A7",
+    "border": "#dbdcdf",
+    "secondaryBackground": "#f7f8fa",
+    "focus": "#d4e2ff",
+    "hide": "#00000000"
 }
