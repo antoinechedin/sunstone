@@ -1,0 +1,13 @@
+{
+	"author": "antoinechedin",
+	"name": "Sunstone Light Header",
+    "semanticHighlighting": true,
+	"include": "./sunstone-color-theme.json",
+	"colors": {
+        "titleBar.activeBackground": "secondaryBackground",
+        "titleBar.inactiveBackground": "secondaryBackground",
+        "titleBar.activeForeground": "foreground",
+        "titleBar.inactiveForeground": "foreground",
+        "titleBar.border": "border"
+	}
+}

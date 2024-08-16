@@ -1,6 +1,6 @@
 {
   "name": "sunstone",
-  "displayName": "sunstone",
+  "displayName": "Sunstone",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -15,6 +15,11 @@
         "label": "Sunstone",
         "uiTheme": "vs",
         "path": "./build/sunstone-color-theme.json"
+      },
+      {
+        "label": "Sunstone Light Header",
+        "uiTheme": "vs",
+        "path": "./build/sunstone-light-header-color-theme.json"
       }
     ]
   }
