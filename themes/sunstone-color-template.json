@@ -41,7 +41,10 @@
         "titleBar.inactiveBackground": "foreground@0.9",
         "titleBar.activeForeground": "background",
         "titleBar.inactiveForeground": "background",
-
+        
+        "banner.background": "focus",
+        "banner.foreground": "foreground",
+        "banner.iconForeground": "foreground",
 		"activityBar.background": "secondaryBackground",
         "activityBar.foreground": "foreground",
         "activityBar.border": "border",
@@ -79,12 +82,18 @@
 
         "terminal.background": "background",
 
+        "statusBar.border": "border",
         "statusBar.background": "secondaryBackground",
 		"statusBar.foreground": "foreground",
-        "statusBar.border": "border",
+        "statusBar.noFolderBackground": "secondaryBackground",
+        "statusBar.debuggingBackground": "brightRed",
+        "statusBar.debuggingForeground": "foreground",
         "statusBarItem.activeBackground": "focus",
-        "statusBar.debuggingForeground": "brightRed",
         "statusBarItem.hoverBackground": "focus",
+        "statusBarItem.errorBackground": "#C72E0F",
+        "statusBarItem.prominentBackground": "#6E768166",
+        "statusBarItem.remoteBackground": "primary",
+        "statusBarItem.remoteForeground": "background",
 
         "button.background": "primary",
         "button.foreground": "background",
