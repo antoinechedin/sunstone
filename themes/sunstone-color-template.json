@@ -42,7 +42,7 @@
         "titleBar.activeForeground": "background",
         "titleBar.inactiveForeground": "background",
         
-        "banner.background": "focus",
+        "banner.background": "warning",
         "banner.foreground": "foreground",
         "banner.iconForeground": "foreground",
 		"activityBar.background": "secondaryBackground",

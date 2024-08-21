@@ -24,5 +24,6 @@
     "border": "#dbdcdf",
     "secondaryBackground": "#f7f8fa",
     "focus": "#d4e2ff",
-    "hide": "#00000000"
+    "hide": "#00000000",
+    "warning": "#fff5db"
 }
